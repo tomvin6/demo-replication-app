@@ -107,7 +107,7 @@ public class DataManager {
 	}
 
 	static void upVoteBand(int id) throws Exception {
-		if (!initialized) throw new Exception("service not initialized");
+		if (!initialized) throw new Exception(" service not initialized");
 		Band band = DataManager.getBand(id);
 		if (band != null) {
 			synchronized (band) {

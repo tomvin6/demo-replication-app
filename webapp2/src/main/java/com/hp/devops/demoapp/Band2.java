@@ -28,6 +28,7 @@ public class Band {
 		} else {
 			throw new InvalidParameterException("json must have an id property ");
 		}
+
 	}
 
 	public JSONObject toJSON() {
