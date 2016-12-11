@@ -2,7 +2,7 @@ package com.hp.devops.demoapp;/**
  * Created with IntelliJ IDEA.
  * User: belozovs
  * Date: 11/25/14
- * Time: 4:32 PM
+ * Time: 4:32 PM .
  * To change this template use File | Settings | File Templates.
  */
 

@@ -11,7 +11,7 @@ import java.security.InvalidParameterException;
  * Time: 10:03
  * To change this template use File | Settings | File Templates.
  */
-public class Band {
+public class Band2 {
 	public int id;
 	public String name = "";
 	public String logo = "";

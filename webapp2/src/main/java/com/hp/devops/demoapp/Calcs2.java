@@ -4,7 +4,7 @@ package com.hp.devops.demoapp;
  * Created by gullery on 17/02/2016.
  */
 
-public class Calcs {
+public class Calcs2 {
 
 	public static int sum(int a, int b) {     //  1 test covers this
 		return a + b -8  ;

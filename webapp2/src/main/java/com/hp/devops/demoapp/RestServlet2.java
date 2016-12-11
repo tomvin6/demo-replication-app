@@ -14,7 +14,7 @@ import java.io.IOException;
  * Time: 17:40
  * To change this template use File | Settings | File Templates.
  */
-public class RestServlet extends HttpServlet {
+public class RestServlet2 extends HttpServlet {
 
 	@Override
 	public void init() throws ServletException {

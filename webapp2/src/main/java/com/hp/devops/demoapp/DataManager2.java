@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * Time: 09:58
  * To change this template use File | Settings | File Templates.
  */
-public class DataManager {
+public class DataManager2 {
 
 	static private boolean initialized = false;
 	static private Object lock = new Object();
