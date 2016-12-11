@@ -2,16 +2,16 @@ package com.hp.devops.demoapp;
 
 import java.util.ArrayList;
 
-public class Utils {
+public class Utils2 {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
-		System.out.println(" touching the failed test");
+		System.out.println("touching the failed test");
 		if (input != null) {
 			for (String node : input.split("/")) {
 				if (node.compareTo("") != 0 && node.compareTo("api") != 0) {
 					nodes.add(node);
-					System.out.println("Updated to              fail  test [Abed last touch again .KKKKK.]");
+					System.out.println("Updated to fail test [Abed last touch again .KKKKK.]");
 				}
 			}
 		}

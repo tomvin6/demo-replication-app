@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * Time: 09:58
  * To change this template use File | Settings | File Templates.
  */
-public class DataManager {
+public class DataManager2 {
 
 	static private boolean initialized = false;
 	static private Object lock = new Object();
@@ -25,13 +25,11 @@ public class DataManager {
 	static private ArrayList<Band> bands = new ArrayList<Band>();
 
 	static void init(ServletContext servletContext) {
-		System.out.println("DataManager                  Init");
-		System.out.println("  B   a   n   d ");
 		if (servletContext != null) {
 			DataManager.servletContext = servletContext;
 			DataManager.loadData();
 		} else {
-			throw new InvalidParameterException(" servletContext must not be null");
+			throw new InvalidParameterException("servletContext must not be null");
 		}
 	}
 
@@ -109,7 +107,7 @@ public class DataManager {
 	}
 
 	static void upVoteBand(int id) throws Exception {
-		if (!initialized) throw new Exception("service not initialized");
+		if (!initialized) throw new Exception(" service not initialized");
 		Band band = DataManager.getBand(id);
 		if (band != null) {
 			synchronized (band) {
