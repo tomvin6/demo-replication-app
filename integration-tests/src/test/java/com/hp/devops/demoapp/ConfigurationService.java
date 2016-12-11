@@ -5,7 +5,7 @@ import javax.annotation.PostConstruct;
 /**
  * User: belozovs
  * Date: 11/25/14
- * Description .
+ * Description  .
  */
 public class ConfigurationService {
 
