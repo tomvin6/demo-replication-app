@@ -2,7 +2,7 @@ package com.hp.devops.demoapp;
 
 import java.util.ArrayList;
 
-public class Utils2 {
+public class Utils2  {
 
 	static String[] nodify(String input) {
 		ArrayList<String> nodes = new ArrayList<String>();
